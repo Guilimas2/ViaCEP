@@ -10,5 +10,9 @@ const limparFormulario = () => {
     document.getElementById('cidade').value =  '';
     document.getElementById('uf').value =  '';
 }
-const eNumero = (numero) => /^[0-9]+$/. 
+// criar regra de expressao regular (regex) para testar valor inicial informado pelo usuario 
+const eNumero = (kiara) => /^[0-9]+$/. test(kiara);
+
+const cepValido = (cep) => cep.length == 8 && eNumero(cep);
+
 
