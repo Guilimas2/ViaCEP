@@ -1,5 +1,6 @@
 <h1 align="center">  Cadastro de endereço com consumo de API (ViaCEP) </h1>
-(![](Captura%20de%20tela_3-10-2024_111724_.jpeg))
+
+![teladelogin](Captura%20de%20tela_3-10-2024_111724_.jpeg)
 
 # Como funciona 
 esse site foi feito para você colocar seu CEP, quando você colocar seu CEP ira preencheer todos os campos como enedereço, bairro entre outros...
