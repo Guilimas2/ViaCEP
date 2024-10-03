@@ -8,41 +8,47 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
 </head>
 <body>
+    <body style="background-color: rgb(255, 255, 255);">
     <div class="container">
         <form class="row g-3">
           <h3>Cadastro de Endereço</h3>
-          <div class="col-md-4">
-            <label for="Nome" class="form-label">cep</label>
-            <input type="tel" class="form-control" id="cep" placeholder="ex:12345-678">
+          <div class="col-md-3">
+            <label for="Nome" class="form-label">CEP</label>
+            <input type="tel" class="form-control" id="cep" placeholder="informe seu CEP">
           </div>
-          <div class="col-md-6">
-            <label for="tel" class="form-label">rua</label>
-            <input type="text" class="form-control" id="logradouro" placeholder="ex: rua marista irmao acacio">
+          <div class="col-md-5">
+            <label for="tel" class="form-label">Rua</label>
+            <input type="text" class="form-control" id="logradouro" placeholder="Ex: Rua Brasil Neves">
+          </div>
+          <div class="col-md-3">
+            <label for="numero" class="form-label">N°</label>
+            <input type="numero" class="form-control" id="numero" placeholder="Ex: 123">
           </div>
           <div class="col-md-3">
             <label for="date" class="form-label">Bairro</label>
-            <input type="text" class="form-control" id="Bairro" placeholder="ex: maristao">
+            <input type="text" class="form-control" id="bairro" placeholder="Vila Linda">
           </div>
           <div class="col-md-3">
-            <label for="Nome" class="form-label">complemento</label>
-            <input type="text" class="form-control" id="complemento" placeholder="ex: casa, apartamento...">
-            
+            <label for="text" class="form-label">Cidade </label>
+            <input type="text" class="form-control" id="localidade" placeholder="Ex:Londrina">
           </div>
-          <div class="col-md-5">
-            <label for="inputEmail4" class="form-label">cidade </label>
-            <input type="email" class="form-control" id="cidade" placeholder="ex: londrina...">
+          <div class="col-md-3">
+            <label for="text" class="form-label">Estado</label>
+            <input type="text" class="form-control" id="uf" placeholder="Ex: Paraná">
           </div>
-          <div class="col-md-4">
-            <label for="Senha" class="form-label">estado</label>
-            <input type="password" class="form-control" id="uf" placeholder="ex: parana">
+          <div class="col-md-6">
+            <label for="Nome" class="form-label">Complemento</label>
+            <input type="text" class="form-control" id="complemento" placeholder="Ex: bloco, apartamento, fundos, sobrado...">
           </div>
           <div class="col-15">
-            <button type="submit" class="btn btn-primary">𝑬𝑵𝑻𝑹𝑨𝑹</button>
+            <button type="submit" class="btn btn-primary" >𝑬𝑵𝑻𝑹𝑨𝑹</button>
           </div>
-        </form>
+     
       </div>
-      <script src='main.js'></script>
+    </form>
+    <script src='main.js'></script>
 </body>
 </html>
