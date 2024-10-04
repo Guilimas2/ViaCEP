@@ -15,6 +15,8 @@ esse site foi feito para você colocar seu CEP, quando você colocar seu CEP ira
 
  ⁠async:  são uma maneira de escrever código assíncrono em JavaScript de uma forma mais lógica e legível. 
 
+focusout: O evento focusout é acionado assim que o elemento perde o foco. A principal diferença entre esse evento e o evento blur, é que esse ultimo não gera "borbulhas".
+
  # Tecnologia utilizadas
 
 * VsCode 
@@ -28,5 +30,6 @@ https://getbootstrap.com/<br>
 https://www.locaweb.com.br/blog/temas/codigo-aberto/javascript/#:~:text=As%20fun%C3%A7%C3%B5es%20Async%2FAwait%20s%C3%A3o,para%20lidar%20com%20opera%C3%A7%C3%B5es%20ass%C3%ADncronas.<br>
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty<br>
 https://cursos.alura.com.br/forum/topico-duvida-347241#:~:text=Nesse%20exemplo%2C%20fetch%20%C3%A9%20uma,o%20resultado%20%C3%A0%20vari%C3%A1vel%20resposta%20<br>
+https://developer.mozilla.org/pt-BR/docs/Web/API/Element/focusout_event
 # colaborador e autor
  [<br><sub>Maria Yanagui<br> </sub>](https://github.com/mariayanagui) |  [<img loading="lazy" src="yanagui.jpg" width=115><br><sub>Guilherme Serfim<br></sub>](https://github.com/Guilimas2) |  [<img loading="lazy" src="guieu.jpg" width=115><br><sub></sub>](h) 
